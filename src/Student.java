@@ -52,4 +52,14 @@ public class Student {
   public void setSport(Sport sport) {
     this.sport = sport;
   }
+
+  @Override
+  public String toString() {
+    return "Student{" +
+        "name='" + name + '\'' +
+        ", email='" + email + '\'' +
+        ", address='" + address + '\'' +
+        ", sport=" + sport +
+        '}';
+  }
 }
